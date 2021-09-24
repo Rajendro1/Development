@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Kushmanda Tec</title>
+</head>
+<body>
+    <a href="/home">Home</a>
+    <div class="contaner">
+        <h1>Please Fill Up The From</h1><br><br>
+        <form action="/home" method="POST">
+
+            <label for="authorid">Enetr Auther Id:</label><br>
+            <input type="text" name="authorid" id="authorid"><br><br>
+            
+            <label for="authername">Enetr Auther Name:</label><br>
+            <input type="text" name="authername" id="AutherName"><br><br>
+
+            <label for="FirstName">Enetr Your First Name:</label><br>
+            <input type="text" name="FirstName" id="FirstName"><br><br>
+
+            <label for="LastName">Enetr Your Last Name:</label><br>
+            <input type="text" name="LastName" id="LastName"><br><br>
+        
+            <label for="dateofbirth">Enetr Your Date Of Birth:</label><br>
+            <input type="date" name="dateofbirth" id="dateofbirth"><br><br>
+            
+            <label for="image">Upload Your Photo:</label><br>
+            <input type="file" name="image"><br><br>
+    
+            <input type="submit" valiue="Press Here">
+        </form>
+    </div>
+    <br><br>
+    {{if .}}
+        <h2>{{.}}</h2>
+    {{end}}
+<br>
+</body>
+</html>
