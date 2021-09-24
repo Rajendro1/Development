@@ -1,0 +1,28 @@
+<<<<<<< HEAD
+span {
+    margin-right: 62em;
+}
+
+.btn{
+    color: white;
+    background: purple;
+    padding: 4px 5px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+=======
+span {
+    margin-right: 62em;
+}
+
+.btn{
+    color: white;
+    background: purple;
+    padding: 4px 5px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+>>>>>>> d393fa2f2e2cc3b7bc60b3020d923b2fd80d9bcc
+}
